@@ -1,1 +1,1 @@
-  -LH:/Linux/CHIP8/libs/SDL2/lib  H:/Linux/CHIP8/libs/SDL2/lib/libSDL2.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -LH:/Linux/CHIP8/libs/SDL2/lib  -lmingw32 -lSDL2main -lSDL2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

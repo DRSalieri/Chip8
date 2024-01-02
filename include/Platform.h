@@ -1,6 +1,6 @@
 #pragma once
 #include <cstdint>
-#include <SDL.h>
+#include "SDL2/SDL.h"
 
 class Platform
 {
@@ -14,4 +14,4 @@ class Platform
         SDL_Window* window{};
         SDL_Renderer* renderer{};
         SDL_Texture* texture{};
-}
+};

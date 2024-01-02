@@ -128,6 +128,126 @@ chip8/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/build
 .PHONY : chip8/fast
 
+src/Instruction/IO.obj: src/Instruction/IO.cpp.obj
+.PHONY : src/Instruction/IO.obj
+
+# target to build an object file
+src/Instruction/IO.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/IO.cpp.obj
+.PHONY : src/Instruction/IO.cpp.obj
+
+src/Instruction/IO.i: src/Instruction/IO.cpp.i
+.PHONY : src/Instruction/IO.i
+
+# target to preprocess a source file
+src/Instruction/IO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/IO.cpp.i
+.PHONY : src/Instruction/IO.cpp.i
+
+src/Instruction/IO.s: src/Instruction/IO.cpp.s
+.PHONY : src/Instruction/IO.s
+
+# target to generate assembly for a file
+src/Instruction/IO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/IO.cpp.s
+.PHONY : src/Instruction/IO.cpp.s
+
+src/Instruction/control.obj: src/Instruction/control.cpp.obj
+.PHONY : src/Instruction/control.obj
+
+# target to build an object file
+src/Instruction/control.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/control.cpp.obj
+.PHONY : src/Instruction/control.cpp.obj
+
+src/Instruction/control.i: src/Instruction/control.cpp.i
+.PHONY : src/Instruction/control.i
+
+# target to preprocess a source file
+src/Instruction/control.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/control.cpp.i
+.PHONY : src/Instruction/control.cpp.i
+
+src/Instruction/control.s: src/Instruction/control.cpp.s
+.PHONY : src/Instruction/control.s
+
+# target to generate assembly for a file
+src/Instruction/control.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/control.cpp.s
+.PHONY : src/Instruction/control.cpp.s
+
+src/Instruction/data.obj: src/Instruction/data.cpp.obj
+.PHONY : src/Instruction/data.obj
+
+# target to build an object file
+src/Instruction/data.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/data.cpp.obj
+.PHONY : src/Instruction/data.cpp.obj
+
+src/Instruction/data.i: src/Instruction/data.cpp.i
+.PHONY : src/Instruction/data.i
+
+# target to preprocess a source file
+src/Instruction/data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/data.cpp.i
+.PHONY : src/Instruction/data.cpp.i
+
+src/Instruction/data.s: src/Instruction/data.cpp.s
+.PHONY : src/Instruction/data.s
+
+# target to generate assembly for a file
+src/Instruction/data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/data.cpp.s
+.PHONY : src/Instruction/data.cpp.s
+
+src/Instruction/display.obj: src/Instruction/display.cpp.obj
+.PHONY : src/Instruction/display.obj
+
+# target to build an object file
+src/Instruction/display.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/display.cpp.obj
+.PHONY : src/Instruction/display.cpp.obj
+
+src/Instruction/display.i: src/Instruction/display.cpp.i
+.PHONY : src/Instruction/display.i
+
+# target to preprocess a source file
+src/Instruction/display.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/display.cpp.i
+.PHONY : src/Instruction/display.cpp.i
+
+src/Instruction/display.s: src/Instruction/display.cpp.s
+.PHONY : src/Instruction/display.s
+
+# target to generate assembly for a file
+src/Instruction/display.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/display.cpp.s
+.PHONY : src/Instruction/display.cpp.s
+
+src/Instruction/reg.obj: src/Instruction/reg.cpp.obj
+.PHONY : src/Instruction/reg.obj
+
+# target to build an object file
+src/Instruction/reg.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/reg.cpp.obj
+.PHONY : src/Instruction/reg.cpp.obj
+
+src/Instruction/reg.i: src/Instruction/reg.cpp.i
+.PHONY : src/Instruction/reg.i
+
+# target to preprocess a source file
+src/Instruction/reg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/reg.cpp.i
+.PHONY : src/Instruction/reg.cpp.i
+
+src/Instruction/reg.s: src/Instruction/reg.cpp.s
+.PHONY : src/Instruction/reg.s
+
+# target to generate assembly for a file
+src/Instruction/reg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/reg.cpp.s
+.PHONY : src/Instruction/reg.cpp.s
+
 src/Platform.obj: src/Platform.cpp.obj
 .PHONY : src/Platform.obj
 
@@ -209,6 +329,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... chip8
+	@echo ... src/Instruction/IO.obj
+	@echo ... src/Instruction/IO.i
+	@echo ... src/Instruction/IO.s
+	@echo ... src/Instruction/control.obj
+	@echo ... src/Instruction/control.i
+	@echo ... src/Instruction/control.s
+	@echo ... src/Instruction/data.obj
+	@echo ... src/Instruction/data.i
+	@echo ... src/Instruction/data.s
+	@echo ... src/Instruction/display.obj
+	@echo ... src/Instruction/display.i
+	@echo ... src/Instruction/display.s
+	@echo ... src/Instruction/reg.obj
+	@echo ... src/Instruction/reg.i
+	@echo ... src/Instruction/reg.s
 	@echo ... src/Platform.obj
 	@echo ... src/Platform.i
 	@echo ... src/Platform.s
