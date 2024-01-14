@@ -787,7 +787,7 @@ CMakeFiles/chip8.dir/src/Instruction/reg.cpp.obj
  H:/Linux/CHIP8/include/chip8.h
 
 CMakeFiles/chip8.dir/src/Platform.cpp.obj
- H:/Linux/CHIP8/src/Platform.cpp
+ H:/Linux/CHIP8/src/platform.cpp
  E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h
  E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h
  E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h

@@ -143,26 +143,11 @@ CMakeFiles/chip8.dir/src/Instruction/reg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chip8.dir/src/Instruction/reg.cpp.s"
 	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Linux\CHIP8\src\Instruction\reg.cpp -o CMakeFiles\chip8.dir\src\Instruction\reg.cpp.s
 
-CMakeFiles/chip8.dir/src/Platform.cpp.obj: CMakeFiles/chip8.dir/flags.make
-CMakeFiles/chip8.dir/src/Platform.cpp.obj: CMakeFiles/chip8.dir/includes_CXX.rsp
-CMakeFiles/chip8.dir/src/Platform.cpp.obj: H:/Linux/CHIP8/src/Platform.cpp
-CMakeFiles/chip8.dir/src/Platform.cpp.obj: CMakeFiles/chip8.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Linux\CHIP8\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chip8.dir/src/Platform.cpp.obj"
-	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chip8.dir/src/Platform.cpp.obj -MF CMakeFiles\chip8.dir\src\Platform.cpp.obj.d -o CMakeFiles\chip8.dir\src\Platform.cpp.obj -c H:\Linux\CHIP8\src\Platform.cpp
-
-CMakeFiles/chip8.dir/src/Platform.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chip8.dir/src/Platform.cpp.i"
-	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Linux\CHIP8\src\Platform.cpp > CMakeFiles\chip8.dir\src\Platform.cpp.i
-
-CMakeFiles/chip8.dir/src/Platform.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chip8.dir/src/Platform.cpp.s"
-	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Linux\CHIP8\src\Platform.cpp -o CMakeFiles\chip8.dir\src\Platform.cpp.s
-
 CMakeFiles/chip8.dir/src/chip8.cpp.obj: CMakeFiles/chip8.dir/flags.make
 CMakeFiles/chip8.dir/src/chip8.cpp.obj: CMakeFiles/chip8.dir/includes_CXX.rsp
 CMakeFiles/chip8.dir/src/chip8.cpp.obj: H:/Linux/CHIP8/src/chip8.cpp
 CMakeFiles/chip8.dir/src/chip8.cpp.obj: CMakeFiles/chip8.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Linux\CHIP8\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chip8.dir/src/chip8.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Linux\CHIP8\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chip8.dir/src/chip8.cpp.obj"
 	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chip8.dir/src/chip8.cpp.obj -MF CMakeFiles\chip8.dir\src\chip8.cpp.obj.d -o CMakeFiles\chip8.dir\src\chip8.cpp.obj -c H:\Linux\CHIP8\src\chip8.cpp
 
 CMakeFiles/chip8.dir/src/chip8.cpp.i: cmake_force
@@ -177,7 +162,7 @@ CMakeFiles/chip8.dir/src/main.cpp.obj: CMakeFiles/chip8.dir/flags.make
 CMakeFiles/chip8.dir/src/main.cpp.obj: CMakeFiles/chip8.dir/includes_CXX.rsp
 CMakeFiles/chip8.dir/src/main.cpp.obj: H:/Linux/CHIP8/src/main.cpp
 CMakeFiles/chip8.dir/src/main.cpp.obj: CMakeFiles/chip8.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Linux\CHIP8\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chip8.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Linux\CHIP8\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chip8.dir/src/main.cpp.obj"
 	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chip8.dir/src/main.cpp.obj -MF CMakeFiles\chip8.dir\src\main.cpp.obj.d -o CMakeFiles\chip8.dir\src\main.cpp.obj -c H:\Linux\CHIP8\src\main.cpp
 
 CMakeFiles/chip8.dir/src/main.cpp.i: cmake_force
@@ -188,6 +173,21 @@ CMakeFiles/chip8.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chip8.dir/src/main.cpp.s"
 	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Linux\CHIP8\src\main.cpp -o CMakeFiles\chip8.dir\src\main.cpp.s
 
+CMakeFiles/chip8.dir/src/platform.cpp.obj: CMakeFiles/chip8.dir/flags.make
+CMakeFiles/chip8.dir/src/platform.cpp.obj: CMakeFiles/chip8.dir/includes_CXX.rsp
+CMakeFiles/chip8.dir/src/platform.cpp.obj: H:/Linux/CHIP8/src/platform.cpp
+CMakeFiles/chip8.dir/src/platform.cpp.obj: CMakeFiles/chip8.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=H:\Linux\CHIP8\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chip8.dir/src/platform.cpp.obj"
+	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chip8.dir/src/platform.cpp.obj -MF CMakeFiles\chip8.dir\src\platform.cpp.obj.d -o CMakeFiles\chip8.dir\src\platform.cpp.obj -c H:\Linux\CHIP8\src\platform.cpp
+
+CMakeFiles/chip8.dir/src/platform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/chip8.dir/src/platform.cpp.i"
+	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E H:\Linux\CHIP8\src\platform.cpp > CMakeFiles\chip8.dir\src\platform.cpp.i
+
+CMakeFiles/chip8.dir/src/platform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/chip8.dir/src/platform.cpp.s"
+	E:\Mingw\x86_64_win32_seh\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S H:\Linux\CHIP8\src\platform.cpp -o CMakeFiles\chip8.dir\src\platform.cpp.s
+
 # Object files for target chip8
 chip8_OBJECTS = \
 "CMakeFiles/chip8.dir/src/Instruction/IO.cpp.obj" \
@@ -195,9 +195,9 @@ chip8_OBJECTS = \
 "CMakeFiles/chip8.dir/src/Instruction/data.cpp.obj" \
 "CMakeFiles/chip8.dir/src/Instruction/display.cpp.obj" \
 "CMakeFiles/chip8.dir/src/Instruction/reg.cpp.obj" \
-"CMakeFiles/chip8.dir/src/Platform.cpp.obj" \
 "CMakeFiles/chip8.dir/src/chip8.cpp.obj" \
-"CMakeFiles/chip8.dir/src/main.cpp.obj"
+"CMakeFiles/chip8.dir/src/main.cpp.obj" \
+"CMakeFiles/chip8.dir/src/platform.cpp.obj"
 
 # External object files for target chip8
 chip8_EXTERNAL_OBJECTS =
@@ -207,9 +207,9 @@ chip8.exe: CMakeFiles/chip8.dir/src/Instruction/control.cpp.obj
 chip8.exe: CMakeFiles/chip8.dir/src/Instruction/data.cpp.obj
 chip8.exe: CMakeFiles/chip8.dir/src/Instruction/display.cpp.obj
 chip8.exe: CMakeFiles/chip8.dir/src/Instruction/reg.cpp.obj
-chip8.exe: CMakeFiles/chip8.dir/src/Platform.cpp.obj
 chip8.exe: CMakeFiles/chip8.dir/src/chip8.cpp.obj
 chip8.exe: CMakeFiles/chip8.dir/src/main.cpp.obj
+chip8.exe: CMakeFiles/chip8.dir/src/platform.cpp.obj
 chip8.exe: CMakeFiles/chip8.dir/build.make
 chip8.exe: CMakeFiles/chip8.dir/linkLibs.rsp
 chip8.exe: CMakeFiles/chip8.dir/objects1.rsp

@@ -24,6 +24,27 @@
             ],
             "preLaunchTask": "build"    // 调试前要做的工作
 
+        },
+        {
+            "name": "tetris",      // 配置名称
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/chip8.exe",  // 可执行文件的路径
+            "args": ["10", "1", "../rom/tetris.ch8"],  // 可执行文件运行时，传递的参数
+            "stopAtEntry": false,                           // 一般设为false，设为true时强制停留在程序入口
+            "externalConsole": true,                        // 一般设为true，表示调试时会显示控制台
+            "cwd": "${workspaceFolder}",                    // 调试程序的工作目录，一般为${workspaceFolder}，即代码所在目录
+            "MIMode": "gdb",
+            "miDebuggerPath": "E:/Mingw/x86_64_win32_seh/bin/gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build"    // 调试前要做的工作
+
         }
     ]
 }

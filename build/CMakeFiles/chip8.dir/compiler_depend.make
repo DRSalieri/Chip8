@@ -781,7 +781,7 @@ CMakeFiles/chip8.dir/src/Instruction/reg.cpp.obj: H:/Linux/CHIP8/src/Instruction
   E:/Mingw/x86_64_win32_seh/x86_64-w64-mingw32/include/wctype.h \
   H:/Linux/CHIP8/include/chip8.h
 
-CMakeFiles/chip8.dir/src/Platform.cpp.obj: H:/Linux/CHIP8/src/Platform.cpp \
+CMakeFiles/chip8.dir/src/Platform.cpp.obj: H:/Linux/CHIP8/src/platform.cpp \
   E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include/adxintrin.h \
@@ -1794,9 +1794,7 @@ H:/Linux/CHIP8/src/Instruction/data.cpp:
 
 H:/Linux/CHIP8/src/Instruction/reg.cpp:
 
-H:/Linux/CHIP8/libs/SDL2/include/SDL2/SDL_system.h:
-
-H:/Linux/CHIP8/src/Platform.cpp:
+H:/Linux/CHIP8/src/platform.cpp:
 
 E:/Mingw/x86_64_win32_seh/lib/gcc/x86_64-w64-mingw32/8.1.0/include/avx512vbmi2vlintrin.h:
 
@@ -1977,6 +1975,8 @@ H:/Linux/CHIP8/libs/SDL2/include/SDL2/SDL_sensor.h:
 H:/Linux/CHIP8/libs/SDL2/include/SDL2/SDL_stdinc.h:
 
 H:/Linux/CHIP8/libs/SDL2/include/SDL2/SDL_surface.h:
+
+H:/Linux/CHIP8/libs/SDL2/include/SDL2/SDL_system.h:
 
 H:/Linux/CHIP8/libs/SDL2/include/SDL2/SDL_thread.h:
 

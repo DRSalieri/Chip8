@@ -31,12 +31,6 @@
 },
 {
   "directory": "H:/Linux/CHIP8/build",
-  "command": "E:\\Mingw\\x86_64_win32_seh\\bin\\g++.exe  @CMakeFiles/chip8.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\chip8.dir\\src\\Platform.cpp.obj -c H:\\Linux\\CHIP8\\src\\Platform.cpp",
-  "file": "H:/Linux/CHIP8/src/Platform.cpp",
-  "output": "CMakeFiles/chip8.dir/src/Platform.cpp.obj"
-},
-{
-  "directory": "H:/Linux/CHIP8/build",
   "command": "E:\\Mingw\\x86_64_win32_seh\\bin\\g++.exe  @CMakeFiles/chip8.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\chip8.dir\\src\\chip8.cpp.obj -c H:\\Linux\\CHIP8\\src\\chip8.cpp",
   "file": "H:/Linux/CHIP8/src/chip8.cpp",
   "output": "CMakeFiles/chip8.dir/src/chip8.cpp.obj"
@@ -46,5 +40,11 @@
   "command": "E:\\Mingw\\x86_64_win32_seh\\bin\\g++.exe  @CMakeFiles/chip8.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\chip8.dir\\src\\main.cpp.obj -c H:\\Linux\\CHIP8\\src\\main.cpp",
   "file": "H:/Linux/CHIP8/src/main.cpp",
   "output": "CMakeFiles/chip8.dir/src/main.cpp.obj"
+},
+{
+  "directory": "H:/Linux/CHIP8/build",
+  "command": "E:\\Mingw\\x86_64_win32_seh\\bin\\g++.exe  @CMakeFiles/chip8.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\chip8.dir\\src\\platform.cpp.obj -c H:\\Linux\\CHIP8\\src\\platform.cpp",
+  "file": "H:/Linux/CHIP8/src/platform.cpp",
+  "output": "CMakeFiles/chip8.dir/src/platform.cpp.obj"
 }
 ]

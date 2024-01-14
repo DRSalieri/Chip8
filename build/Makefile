@@ -248,30 +248,6 @@ src/Instruction/reg.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Instruction/reg.cpp.s
 .PHONY : src/Instruction/reg.cpp.s
 
-src/Platform.obj: src/Platform.cpp.obj
-.PHONY : src/Platform.obj
-
-# target to build an object file
-src/Platform.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Platform.cpp.obj
-.PHONY : src/Platform.cpp.obj
-
-src/Platform.i: src/Platform.cpp.i
-.PHONY : src/Platform.i
-
-# target to preprocess a source file
-src/Platform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Platform.cpp.i
-.PHONY : src/Platform.cpp.i
-
-src/Platform.s: src/Platform.cpp.s
-.PHONY : src/Platform.s
-
-# target to generate assembly for a file
-src/Platform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/Platform.cpp.s
-.PHONY : src/Platform.cpp.s
-
 src/chip8.obj: src/chip8.cpp.obj
 .PHONY : src/chip8.obj
 
@@ -320,6 +296,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/platform.obj: src/platform.cpp.obj
+.PHONY : src/platform.obj
+
+# target to build an object file
+src/platform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/platform.cpp.obj
+.PHONY : src/platform.cpp.obj
+
+src/platform.i: src/platform.cpp.i
+.PHONY : src/platform.i
+
+# target to preprocess a source file
+src/platform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/platform.cpp.i
+.PHONY : src/platform.cpp.i
+
+src/platform.s: src/platform.cpp.s
+.PHONY : src/platform.s
+
+# target to generate assembly for a file
+src/platform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\chip8.dir\build.make CMakeFiles/chip8.dir/src/platform.cpp.s
+.PHONY : src/platform.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -344,15 +344,15 @@ help:
 	@echo ... src/Instruction/reg.obj
 	@echo ... src/Instruction/reg.i
 	@echo ... src/Instruction/reg.s
-	@echo ... src/Platform.obj
-	@echo ... src/Platform.i
-	@echo ... src/Platform.s
 	@echo ... src/chip8.obj
 	@echo ... src/chip8.i
 	@echo ... src/chip8.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/platform.obj
+	@echo ... src/platform.i
+	@echo ... src/platform.s
 .PHONY : help
 
 
